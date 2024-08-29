@@ -1,0 +1,5 @@
+// These settings override both User and Default settings for the JSON syntax
+{
+	"detect_indentation": false,
+	"word_wrap": "true"
+}

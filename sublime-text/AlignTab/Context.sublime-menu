@@ -1,0 +1,17 @@
+[
+	{
+		"id": "aligntab",
+		"caption": "AlignTab",
+		"children": [
+			{"caption" : "-"},
+			{
+				"caption": "LaTeX table",
+				"command": "align_tab",
+				"args": {"user_input" : "(?<!\\\\)&|\\\\\\\\"},
+				"context":[
+					{ "key": "selector", "operator": "equal", "operand": "text.tex.latex" }
+				]
+			},
+		]
+	}
+]

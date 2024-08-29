@@ -1,0 +1,6 @@
+// These settings override both User and Default settings for the LaTeX syntax
+{
+	"translate_tabs_to_spaces": true,
+	"detect_indentation": false,
+	"word_wrap": true,
+}

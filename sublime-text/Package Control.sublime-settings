@@ -1,0 +1,32 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"A File Icon",
+		"AlignTab",
+		"BracketHighlighter",
+		"Catppuccin color schemes",
+		"LaTeX-cwl",
+		"LaTeXTab",
+		"LaTeXTools",
+		"LaTeXYZ",
+		"LSP",
+		"LSP-pyright",
+		"LSP-R",
+		"LSP-TexLab",
+		"Package Control",
+		"PowerShell",
+		"Pretty JSON",
+		"R-Box",
+		"R-IDE",
+		"Stata Enhanced",
+		"sublack",
+		"SublimeLinter",
+		"SublimeLinter-pycodestyle",
+		"Terminus",
+		"Whitespace",
+	],
+}

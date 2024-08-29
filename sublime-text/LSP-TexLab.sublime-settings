@@ -1,0 +1,15 @@
+// Settings in here override those in "LSP-TexLab/LSP-TexLab.sublime-settings"
+
+{
+	"texlab.build.args": [
+			"-cd",
+			"-e",
+			"-f",
+			"-pdfxe",
+			"-interaction=nonstopmode",
+			"-synctex=1",
+			"-shell-escape",
+			"--output-directory=output",
+			"%f",
+		],
+}

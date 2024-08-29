@@ -1,0 +1,6 @@
+// These settings override both User and Default settings for the Stata syntax
+{
+	"wrap_width": 150,
+	"wrap_width_style": "min",
+	"rulers": [80, 120],
+}

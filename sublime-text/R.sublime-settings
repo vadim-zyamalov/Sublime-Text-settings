@@ -1,0 +1,11 @@
+// These settings override both User and Default settings for the R syntax
+{
+	"wrap_width": 120,
+	"wrap_width_style": "min",
+	"translate_tabs_to_spaces": true,
+	"tab_size": 2,
+	"detect_indentation": false,
+	"indent_subsequent_lines": true,
+	"indent_to_bracket": false,
+	"rulers": [80],
+}

@@ -1,0 +1,51 @@
+[
+	{
+		"keys": ["ctrl+alt+enter"],
+		"command": "replace_all",
+		"args": {"close_panel": false},
+		"context": [{"key": "panel", "operand": "replace"}, {"key": "panel_has_focus"}]
+	},
+	{
+		"keys": ["shift+up"],
+		"command": "lsp_signature_help_navigate",
+		"args": {"forward": false},
+		"context": [{"key": "lsp.signature_help_multiple_choices_available"}]
+	},
+	{
+		"keys": ["shift+down"],
+		"command": "lsp_signature_help_navigate",
+		"args": {"forward": true},
+		"context": [{"key": "lsp.signature_help_multiple_choices_available"}]
+	},
+	{
+		"keys": ["up"],
+		"command": "move",
+		"args": {"by": "lines", "forward": false},
+		"context": [{"key": "lsp.signature_help_multiple_choices_available"}],
+	},
+	{
+		"keys": ["down"],
+		"command": "move",
+		"args": {"by": "lines", "forward": true},
+		"context": [{"key": "lsp.signature_help_multiple_choices_available"}],
+	},
+	{
+        "keys": ["f2"],
+        "command": "lsp_symbol_rename",
+        "context": [{"key": "lsp.session_with_capability", "operand": "renameProvider"}]
+    },
+    {
+    	"keys": ["f1"],
+    	"command": "lsp_signature_help",
+    	"context": [{"key": "lsp.signature_help_available", "operand": "signatureHelpProvider"}]
+    },
+	{
+       "keys": ["alt+1"],
+       "command": "toggle_terminus_panel",
+       "args": {
+           "cmd": "pwsh",
+           "cwd": "${file_path:${folder}}",
+           "panel_name": "Terminus"
+       }
+   }
+]
