@@ -1,0 +1,29 @@
+{
+    "editor.rulers": [
+        80,
+        120
+    ],
+    "files.trimTrailingWhitespace": true,
+    "editor.fontFamily": "'Cascadia Code', 'Courier New', monospace",
+    "workbench.settings.applyToAllProfiles": [
+        "editor.fontFamily"
+    ],
+    "editor.fontLigatures": true,
+    "workbench.startupEditor": "none",
+    "notebook.output.scrolling": true,
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.black-formatter",
+        "editor.insertSpaces": true,
+        "editor.tabSize": 4,
+        "editor.formatOnSave": true
+    },
+    "black-formatter.importStrategy": "fromEnvironment",
+    "markdown.math.enabled": false,
+    "workbench.iconTheme": "catppuccin-mocha",
+    "workbench.colorTheme": "Catppuccin Mocha",
+    "json.schemas": [],
+    "editor.tabCompletion": "on",
+    "explorer.copyRelativePathSeparator": "/",
+    "python.languageServer": "None",
+    "basedpyright.analysis.typeCheckingMode": "standard",
+}
