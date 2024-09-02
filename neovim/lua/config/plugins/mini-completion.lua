@@ -2,7 +2,6 @@ return {
   "echasnovski/mini.completion",
   version = false,
   dependencies = { "echasnovski/mini.icons" },
-  -- event = "InsertEnter",
   config = function()
     require("mini.icons").setup()
     MiniIcons.tweak_lsp_kind()
