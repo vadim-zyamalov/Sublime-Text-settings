@@ -4,26 +4,37 @@
         120
     ],
     "files.trimTrailingWhitespace": true,
-    "editor.fontFamily": "'Cascadia Code', 'Courier New', monospace",
+    "editor.fontFamily": "Cascadia Code NF, Iosevka, 'Courier New', monospace",
     "workbench.settings.applyToAllProfiles": [
         "editor.fontFamily"
     ],
     "editor.fontLigatures": true,
     "workbench.startupEditor": "none",
     "notebook.output.scrolling": true,
+    "notebook.formatOnSave.enabled": true,
+    "notebook.codeActionsOnSave": {
+        //"notebook.source.fixAll": "explicit",
+        "notebook.source.organizeImports": "explicit"
+    },
     "[python]": {
-        "editor.defaultFormatter": "ms-python.black-formatter",
+        "editor.defaultFormatter": "charliermarsh.ruff",
         "editor.insertSpaces": true,
         "editor.tabSize": 4,
-        "editor.formatOnSave": true
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+        //"source.fixAll": "explicit",
+        "source.organizeImports": "explicit"
+    },
     },
     "black-formatter.importStrategy": "fromEnvironment",
     "markdown.math.enabled": false,
     "workbench.iconTheme": "catppuccin-mocha",
-    "workbench.colorTheme": "Catppuccin Mocha",
     "json.schemas": [],
     "editor.tabCompletion": "on",
     "explorer.copyRelativePathSeparator": "/",
-    "python.languageServer": "None",
+    "workbench.colorTheme": "Catppuccin Mocha",
+    "window.zoomLevel": 1,
     "basedpyright.analysis.typeCheckingMode": "standard",
+    "workbench.tree.renderIndentGuides": "always",
+    "ruff.nativeServer": "on",
 }
