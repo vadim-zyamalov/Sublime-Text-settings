@@ -14,7 +14,7 @@
 	"detect_indentation": false,
 	"color_scheme": "Catppuccin Mocha.sublime-color-scheme",
 	"font_face": "Fira Code",
-	"font_size": 11,
+	"font_size": 12,
 	"ignored_packages":
 	[
 		"Vintage",
