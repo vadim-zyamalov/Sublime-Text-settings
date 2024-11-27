@@ -4,12 +4,11 @@
         120
     ],
     "files.trimTrailingWhitespace": true,
-    "editor.fontFamily": "Cascadia Code NF, Iosevka, 'Courier New', monospace",
+    "editor.fontFamily": "Iosevka, Cascadia Code NF, 'Courier New', monospace",
     "workbench.settings.applyToAllProfiles": [
         "editor.fontFamily"
     ],
     "editor.fontLigatures": true,
-    "workbench.startupEditor": "none",
     "notebook.output.scrolling": true,
     "notebook.formatOnSave.enabled": true,
     "notebook.codeActionsOnSave": {
@@ -37,4 +36,6 @@
     "basedpyright.analysis.typeCheckingMode": "standard",
     "workbench.tree.renderIndentGuides": "always",
     "ruff.nativeServer": "on",
+    "python.defaultInterpreterPath": "D:\\Python\\Эконометрика\\.venv",
+    "workbench.welcomePage.extraAnnouncements": false,
 }
