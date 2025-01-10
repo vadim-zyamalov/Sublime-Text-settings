@@ -2,6 +2,8 @@ catppuccin.catppuccin-vsc
 catppuccin.catppuccin-vsc-icons
 charliermarsh.ruff
 detachhead.basedpyright
+efoerster.texlab
+james-yu.latex-workshop
 kevinrose.vsc-python-indent
 ms-ceintl.vscode-language-pack-ru
 ms-python.python
