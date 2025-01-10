@@ -1,7 +1,7 @@
 // Settings in here override those in "LSP-TexLab/LSP-TexLab.sublime-settings"
 
 {
-	"texlab.build.args": [
+    "texlab.build.args": [
 			"-cd",
 			"-e",
 			"-f",

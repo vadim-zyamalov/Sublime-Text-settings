@@ -29,4 +29,5 @@
 	"index_files": false,
 	"show_definitions": false,
     "show_encoding": true,
+	"update_check": false,
 }

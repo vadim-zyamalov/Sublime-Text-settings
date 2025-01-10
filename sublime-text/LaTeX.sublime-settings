@@ -3,4 +3,5 @@
 	"translate_tabs_to_spaces": true,
 	"detect_indentation": false,
 	"word_wrap": true,
+    "tab_size": 2
 }
