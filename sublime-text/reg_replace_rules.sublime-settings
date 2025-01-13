@@ -1,0 +1,25 @@
+{
+    "format": "3.0",
+    "replacements": {
+        "escaped_quotes": {
+            "find": "\\\\<\\\\<(.*?)\\\\>\\\\>",
+            "replace": "«\\1»",
+            "greedy": true
+        },
+        "bare_quotes": {
+            "find": "<<(.*?)>>",
+            "replace": "«\\1»",
+            "greedy": true
+        },
+        "math_inline": {
+            "find": "(\\\\\\(|\\\\\\))",
+            "replace": "$",
+            "greedy": true
+        },
+        "math_display": {
+            "find": "(\\\\\\[|\\\\\\])",
+            "replace": "$$",
+            "greedy": true
+        }
+    }
+}
