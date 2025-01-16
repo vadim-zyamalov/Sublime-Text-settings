@@ -11,5 +11,6 @@
                 "haskell.formattingProvider": "stylish-haskell"
             }
         }
-    }
+    },
+    "lsp_format_on_save": true,
 }
