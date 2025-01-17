@@ -1,12 +1,32 @@
 [
-   {
+    {
         "caption": "Terminal (panel)",
         "command": "terminus_open",
-        "args"   : {
-           "cmd": "pwsh",
-           "cwd": "${file_path:${folder}}",
-           "title": "PowerShell",
-           "panel_name": "Terminus"
+        "args": {
+            "cmd": "pwsh",
+            "cwd": "${file_path:${folder}}",
+            "title": "PowerShell",
+            "panel_name": "Terminus"
         }
-   },
+    },
+    {
+        "caption": "My: Math in Markdown",
+        "command": "reg_replace",
+        "args": {
+            "replacements": [
+                "math_inline",
+                "math_display"
+            ]
+        }
+    },
+    {
+        "caption": "My: Quotes in Markdown",
+        "command": "reg_replace",
+        "args": {
+            "replacements": [
+                "escaped_quotes",
+                "bare_quotes"
+            ]
+        }
+    }
 ]
