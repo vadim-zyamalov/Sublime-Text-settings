@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+\$${3:y}_t = ${1:a_0} + ${2:a_1} $3_{t-1} + ${4:\varepsilon}_t\$
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>ar1</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.html.markdown, text.tex.latex</scope>
+</snippet>

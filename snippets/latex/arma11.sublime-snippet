@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+\$${6:y}_t = ${1:a_0} + ${2:a_1} $6_{t-1} + ${3:a_2} $6_{t-2} + ${7:\varepsilon}_t + ${4:\beta_1} $7_{t-1} + ${5:\beta_1} $7_{t-2}\$
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>arma22</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.html.markdown, text.tex.latex</scope>
+</snippet>
