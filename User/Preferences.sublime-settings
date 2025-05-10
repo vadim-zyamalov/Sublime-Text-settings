@@ -1,33 +1,31 @@
 {
-	"auto_complete": false,
-	"auto_complete_triggers":
-	[
-		{
-			"characters": "<",
-			"selector": "text.html",
-		},
-		{
-			"characters": "\\",
-			"selector": "text.tex.latex",
-		}
-	],
-	"detect_indentation": false,
-	"color_scheme": "Catppuccin Mocha.sublime-color-scheme",
-	"font_face": "Fira Code",
-	"font_size": 12,
-	"ignored_packages":
-	[
-		"Vintage",
-	],
-	"theme": "Adaptive.sublime-theme",
-	"word_wrap": "true",
-	"themed_title_bar": false,
-	"remove_trailing_whitespace_on_save": true,
-	"ensure_single_trailing_newline": true,
-	"ignore_whitespace_only_lines": false,
-	"ignore_whitespace_on_current_line": false,
-	"index_files": false,
-	"show_definitions": false,
+    "auto_complete": false,
+    "auto_complete_triggers": [
+        {
+            "characters": "<",
+            "selector": "text.html",
+        },
+        {
+            "characters": "\\",
+            "selector": "text.tex.latex",
+        }
+    ],
+    "detect_indentation": false,
+    "color_scheme": "Catppuccin Mocha.sublime-color-scheme",
+    "font_face": "Fira Code",
+    "font_size": 12,
+    "ignored_packages": [
+        "Vintage",
+    ],
+    "theme": "Adaptive.sublime-theme",
+    "word_wrap": true,
+    "themed_title_bar": false,
+    "remove_trailing_whitespace_on_save": true,
+    "ensure_single_trailing_newline": true,
+    "ignore_whitespace_only_lines": false,
+    "ignore_whitespace_on_current_line": false,
+    "index_files": false,
+    "show_definitions": false,
     "show_encoding": true,
-	"update_check": false,
+    "update_check": false,
 }
