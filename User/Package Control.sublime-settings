@@ -2,7 +2,6 @@
 	"bootstrapped": true,
 	"in_process_packages":
 	[
-		"LaTeXTools",
 	],
 	"installed_packages":
 	[
@@ -10,6 +9,7 @@
 		"AlignTab",
 		"BracketHighlighter",
 		"Catppuccin color schemes",
+		"fish",
 		"LaTeXTab",
 		"LaTeXTools",
 		"LSP",
@@ -24,6 +24,7 @@
 		"RegReplace",
 		"Stata Enhanced",
 		"Terminus",
+		"Visual Studio Code Plus Scheme",
 		"Whitespace",
 	],
 }

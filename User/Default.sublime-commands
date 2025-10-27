@@ -28,5 +28,18 @@
                 "bare_quotes"
             ]
         }
+    },
+    {
+        "caption": "My: Deframe beamer file",
+        "command": "reg_replace",
+        "args": {
+            "replacements": [
+                "deframe01",
+                "deframe02",
+                "deframe03",
+                "deframe04",
+                "deframe05"
+            ]
+        }
     }
 ]

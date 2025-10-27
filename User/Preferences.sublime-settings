@@ -12,7 +12,7 @@
     ],
     "detect_indentation": false,
     "color_scheme": "Catppuccin Mocha.sublime-color-scheme",
-    "font_face": "Fira Code",
+    "font_face": "Iosevka Extended",
     "font_size": 12,
     "ignored_packages": [
         "Vintage",
