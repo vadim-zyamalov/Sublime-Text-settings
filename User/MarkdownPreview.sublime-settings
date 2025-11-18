@@ -1,0 +1,20 @@
+{
+    "enable_mathjax": true,
+    "js": {
+        "multimarkdown": [
+            "https://gist.githubusercontent.com/vadim-zyamalov/58928de09d12503926699f42b4c8adea/raw/083b7ac3a5c51494effc190c4505f7b89f242ba1/MathJAX_config.js",
+            "https://cdn.jsdelivr.net/npm/mathjax@4/tex-svg.js"
+        ]
+    },
+    "markdown_binary_map": {
+        "multimarkdown": [
+            "C:/Users/zyama/.local/bin/multimarkdown.exe"
+        ]
+    },
+    "enabled_parsers": [
+        "markdown",
+        "github",
+        "gitlab",
+        "multimarkdown"
+    ],
+}
