@@ -13,7 +13,7 @@
     "detect_indentation": false,
     "color_scheme": "Catppuccin Mocha.sublime-color-scheme",
     "font_face": "Iosevka Extended",
-    "font_size": 12,
+    "font_size": 14,
     "ignored_packages": [
         "Vintage",
     ],
