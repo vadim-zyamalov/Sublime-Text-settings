@@ -1,5 +1,7 @@
 // These settings override both User and Default settings for the Plain text syntax
 {
-	"remove_trailing_whitespace_on_save": false,
-	"ensure_single_trailing_newline": false,
+    "tab_size": 4,
+    "translate_tabs_to_spaces": true,
+    "remove_trailing_whitespace_on_save": false,
+    "ensure_single_trailing_newline": false,
 }
